@@ -1,4 +1,5 @@
 @import '~mdb-ui-kit/css/mdb.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -845,6 +846,142 @@ section.section__3 .section__3-inner .section__3-tab-content .tab-content.active
   width: 90px;
   background-color: green;
   top: 62px;
+}
+
+.carousel section {
+  position: relative;
+  height: 230px;
+  display: flex;
+  align-items: center;
+}
+.carousel .swiper {
+  width: 1200px;
+}
+.carousel .card {
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 5px 10px rgba(188, 188, 188, 0.616);
+}
+.carousel .card::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  border: none;
+}
+.carousel section .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.carousel section .card:hover {
+  transform: translate(0px, -7px);
+  transition-duration: 0.3s;
+}
+.carousel .swiper-pagination {
+  position: absolute;
+}
+.carousel .swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #7d2ae8;
+}
+.carousel .swiper-button-next, .carousel .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  opacity: 0.7;
+  color: #b8b8b8;
+  transition: all 0.3s ease;
+  border: 1px solid #b8b8b8;
+  border-radius: 50%;
+}
+.carousel .swiper-button-next:hover, .carousel .swiper-button-prev:hover {
+  opacity: 1;
+}
+
+.carousel-content {
+  margin-top: 30px;
+}
+.carousel-content .carousel-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+.carousel-content .carousel-text h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.carousel-content .carousel-text span {
+  font-weight: 700;
+  color: green;
+}
+
+.gotgiftcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 91px;
+  background-color: #cfece2;
+}
+.gotgiftcard a {
+  text-decoration: none;
+  color: green;
+}
+.gotgiftcard-right {
+  display: flex;
+  align-items: center;
+}
+.gotgiftcard-right h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 16px;
+  margin: 0;
+}
+.gotgiftcard-right span {
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 24px;
+  color: #797979;
+}
+.gotgiftcard-right .add {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #000000;
+  padding: 5px 15px;
+  margin-right: 20px;
+}
+.gotgiftcard-right .check {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  padding: 5px 20px 7px;
+  margin-right: 20px;
+}
+.gotgiftcard-right .add:hover {
+  transition: background-color 0.2s linear;
+  background-color: #b2cbc2;
+}
+.gotgiftcard-right .check:hover {
+  transition: background-color 0.2s linear;
+  background-color: rgb(84, 84, 84);
+}
+.gotgiftcard-left a {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.bulk {
+  height: 250px;
+  width: 100%;
+  background-color: #f4f4f4;
 }
 
 @media screen and (max-width: 576px) {
