@@ -2,35 +2,35 @@ const products = {
     drinks: [
         {
             name: "Oleato™",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_tight_288"
         },
         {
             name: "Hot Coffees",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_tight_288"
         },   
         {
             name:"Hot Teas",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288"
         }, 
         {
             name:"Hot Drinks",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/677d276173ec4bc192c2b9a21776339f.jpg?impolicy=1by1_tight_288"
         }, 
         {
             name: "Frappuccino® Blended Beverages",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/7FD73D3C93AF43FFA84400A42EFC9F87.jpg?impolicy=1by1_tight_288"
         }, 
         {
             name:"Cold Coffees",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_tight_288"
         }, 
         {
             name:"Iced Teas",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/de6d02e888c74eac9f6ea19c5492b8e8.jpg?impolicy=1by1_tight_288"
         }, 
         {
             name:"Cold Drinks",
-            imageurl:"https://www.starbucks.com/weblx/images/product-placeholder.png"
+            imageurl:"https://globalassets.starbucks.com/assets/358b62402a844a3e9567d70a9790032f.jpg?impolicy=1by1_tight_288"
         } 
     ],
 
